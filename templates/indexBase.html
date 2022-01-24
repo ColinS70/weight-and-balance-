@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>W&B Calc</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body style="background-image: linear-gradient(to right, rgba(255,0,0,.4), rgba(255,0,0,.8));">
+  </body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+
+
+
+
+<div class="flex-child">
+  <form>
+    <h1>
+      <input type="text" name="pWeight" placeholder="Pilot Weight">
+      <input type="text" name="pArm" placeholder="Pilot Arm">
+    </h1>
+    <h1>
+      <input type="text" name="cWeight" placeholder="Copilot Weight">
+      <input type="text" name="cArm" placeholder="Copilot Arm">
+    </h1>
+    <h1>
+      <input type="text" name="bWeight" placeholder="Back Passenger Weight">
+      <input type="text" name="bArm" placeholder="Back Passenger Arm">
+    </h1>
+    <h1>
+      <input type="text" name="caWeight" placeholder="Cargo Weight">
+      <input type="text" name="caArm" placeholder="Cargo Arm">
+    </h1>
+    <input type="submit" formmethod="post" value="Submit">
+  </form>
+</div>
+
+<div class="flex-response">
+  {{x}}
+</div>
