@@ -1,7 +1,6 @@
 #Weight and balance calc
 from flask import Flask, render_template,jsonify,send_file, send_from_directory, abort, request, session
 import numpy as np
-import handler
 
 
 app = Flask(__name__, 
